@@ -70,11 +70,11 @@ h1 {
     gap: 60px;
 }
 
-#\2b 1day,
-#\2b 2day,
-#\2d 1day,
-#\2d 2day,
-#today {
+#day1,
+#day2,
+#day3,
+#day4,
+#day5 {
     border-bottom: 1px solid #fff;
     cursor: pointer;
 }
