@@ -10,7 +10,7 @@ function connect_API(position){
     const LAT = position.coords.latitude;
     const LON = position.coords.longitude;
     weather_API = `https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${KEY}&lang=ja&units=metric`;
-    locate_API = `http://api.openweathermap.org/geo/1.0/reverse?lat=${LAT}&lon=${LON}&limit=5&appid=${KEY}`;
+    locate_API = `https://api.openweathermap.org/geo/1.0/reverse?lat=${LAT}&lon=${LON}&limit=5&appid=${KEY}`;
     get_locate()
 }
 
