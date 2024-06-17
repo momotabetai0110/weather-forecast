@@ -12,12 +12,13 @@
     <!-- ヘッダー -->
     <div id="header">
         <div id="video-area">
-            <video id="video" poster="img/sky.png" webkit-playsinline muted autoplay loop>
+            <video id="video" poster="img/sky.png" playsinline webkit-playsinline muted autoplay loop>
                 <source src="movie/test.mp4" type="video/mp4">
             </video>
         </div>
         <h1>MeteorMind</h1>
         <div id = "time">00:00</div>
+        <div id = "locate">-----</div>
         <div id="day_list">
             <div id="day1" onclick="get_weather(this)"></div>
             <div id="day2" onclick="get_weather(this)"></div>
@@ -29,11 +30,11 @@
         <div id="view">
             <div id="day_view">日付を選択してください</div>
             <div id="weather_view">
-                <div id="weather1">最高気温: -----</div>
-                <div id="weather2">最低気温: -----</div>
-                <div id="weather3">湿度: -----</div>
-                <div id="weather4">前日湿度: -----</div>
-                <div id="weather5">天気: -----</div>
+                <div id="weather1">天気: -----</div>
+                <div id="weather2">最高気温: -----</div>
+                <div id="weather3">最低気温: -----</div>
+                <div id="weather4">平均気温: -----</div>
+                <div id="weather5">平均気温(体感): -----</div>
             </div>
         </div>
         <div id="reset">ー説明ー</div>

@@ -54,9 +54,13 @@ h1 {
 
 #time{
     border-top: 1px solid #fff;
-    margin: 20px 0;
     color: #fff;
     font-size: large;
+}
+#locate{
+    color: #fff;
+    font-size: large;
+    margin: 0px;
 }
 
 #day_list {
