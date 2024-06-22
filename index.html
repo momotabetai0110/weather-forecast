@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>天気予報</title>
+    <title>weather</title>
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="width=device-width,initial-scale=1.0">
 </head>
@@ -16,10 +16,11 @@
                 <source src="movie/test.mp4" type="video/mp4">
             </video>
         </div>
-        <h1>MeteorMind</h1>
-        <div id = "time">【現在時刻】00:00</div>
-        <div id = "locate">【現在地】-----</div>
+        <h1>Tenki Yoho</h1>
+        <div id="time">【現在時刻】00:00</div>
+        <div id="locate">【現在地】-----</div>
         <div id="day_list">
+            <div id="day0" onclick="get_weather(this)"></div>
             <div id="day1" onclick="get_weather(this)"></div>
             <div id="day2" onclick="get_weather(this)"></div>
             <div id="day3" onclick="get_weather(this)"></div>
@@ -37,20 +38,23 @@
                 <div id="weather5">平均気温(体感): -----</div>
             </div>
         </div>
-        <div id="reset">ー説明ー</div>
-    </header>
+        <div id="information_view">
+            <div id="information">===information===</div>
+        </div>
+        <!-- <div id="reset">ー説明ー</div> -->
+        </header>
 
-    <!-- メインコンテンツ -->
-    <main>
+        <!-- メインコンテンツ -->
+        <main>
 
-    </main>
+        </main>
 
-    <!-- フッター -->
-    <footer>
+        <!-- フッター -->
+        <footer>
 
-    </footer>
+        </footer>
 
-    <script src="test.js"></script>
+        <script src="test.js"></script>
 </body>
 
 </html>

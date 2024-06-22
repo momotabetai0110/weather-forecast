@@ -74,6 +74,7 @@ h1 {
     gap: 60px;
 }
 
+#day0,
 #day1,
 #day2,
 #day3,
@@ -85,10 +86,9 @@ h1 {
 
 #view {
     margin-top: 10vh;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     display: flex;
     color: #fff;
-    /* border: 1px solid #f3ff0a; */
     height: 30vh;
 }
 
@@ -100,7 +100,6 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: xx-large;
-    /* border: 1px solid #ff0a0a; */
 }
 
 #weather_view {
@@ -108,7 +107,6 @@ h1 {
     flex-direction: column;
     width: 50%;
     font-size: x-large;
-    /* border: 1px solid #0aff2f; */
     justify-content: space-between;
     padding-left: 10px;
 }
@@ -120,7 +118,26 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: xx-large;
-    /* border: 1px solid #f27eb2; */
     height: 0vh;
     margin-top: 0vh;
+}
+
+#information_view {
+    color: #fff;
+    width: 80vh;
+    height: 10vh;
+    overflow-y: auto;
+    background-color: transparent; /* 背景色を透明に設定 */
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    scrollbar-width: 1px;
+    scrollbar-color: #ffffff #444;
+    position: absolute; /* 絶対位置を使用して */
+    left: 50%; /* 左端を画面の50%に */
+    transform: translateX(-50%); /* 要素を左に50%動かして中央に配置 */
+}
+
+#information {
+    text-align: left; /* 左寄せ */
 }
